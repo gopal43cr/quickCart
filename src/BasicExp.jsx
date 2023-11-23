@@ -21,7 +21,7 @@ export default function BasicExample() {
         };
     
         // Make a POST request using Axios
-        axios.post("https://223e-14-194-176-210.ngrok-free.app/auth/login", data)
+        axios.post("https://6e07-14-194-176-210.ngrok-free.app/auth/login", data)
           .then(response => {
             // Handle success, e.g., show a success message
             console.log("Login successful:", response.data);

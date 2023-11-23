@@ -20,7 +20,7 @@ export default function RegBasicExample() {
       password: password,
     };
 
-    axios.post("https://223e-14-194-176-210.ngrok-free.app/auth/signup", data)
+    axios.post("https://6e07-14-194-176-210.ngrok-free.app/auth/signup", data)
       .then(response => {
         console.log("Signup successful:", response.data);
 

@@ -45,7 +45,7 @@ export default function ShopForm() {
 
 
     // Assuming you have a route on your server to handle signup
-    axios.post("https://223e-14-194-176-210.ngrok-free.app/shop/add", shopData, {
+    axios.post("https://6e07-14-194-176-210.ngrok-free.app/shop/add", shopData, {
       headers: {
         "Content-Type": "multipart/form-data",
       },
