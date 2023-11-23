@@ -19,7 +19,7 @@ function App() {
       {/* Routes */}
       <Routes>
       {/* <Route path="/" exact render={() => <div>Home Page</div>} /> */}
-      <Route path="/login" element={<BasicExample/>} />
+      <Route path="/" element={<BasicExample/>} />
       <Route path="/signup" element={<RegBasicExample/>} />
       <Route path='/addShop' element={<ShopForm/>}/>
 
